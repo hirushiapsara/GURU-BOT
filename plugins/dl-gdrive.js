@@ -11,7 +11,11 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
 ▢ *Number:* ${res.fileName}
 ▢ *Size:* ${res.fileSize}
-▢ *type:* ${res.mimetype}`)
+▢ *type:* ${res.mimetype}
+
+*ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+
+`)
 		
 	conn.sendMessage(m.chat, { document: { url: res.downloadUrl }, fileName: res.fileName, mimetype: res.mimetype }, { quoted: m })
 	m.react(done)
