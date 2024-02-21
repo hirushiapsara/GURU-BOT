@@ -13,7 +13,11 @@ let handler = async (m, { conn, text, args }) => {
 ▢ *📌Desc:* ${res.desc}
 
 ▢ *🔗 Link* : https://tiktok.com/${res.username}
-└────────────`
+└────────────
+
+*ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+
+`
   await conn.sendFile(m.chat, res.profile, 'tt.png', txt, m)
 }
 handler.help = ['tiktokstalk']
