@@ -13,7 +13,11 @@ let handler = async (m, { conn, args, usedPrefix, text, command }) => {
         const downloadingMessage = `🌩️ Downloading file... Please wait.`;
         m.reply(downloadingMessage);
 
-        const caption = `*_Successfully downloaded..._*\nFile: ${file.name}\nSize: ${formatBytes(file.size)}`;
+        const caption = `*_Successfully downloaded..._*\nFile: ${file.name}\nSize: ${formatBytes(file.size)}
+
+        *ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+
+        `;
 
         const data = await file.downloadBuffer();
 
