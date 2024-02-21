@@ -21,6 +21,10 @@ let handler = async (m, { conn, text }) => {
 乂 *Published :* ${firstResult.ago}
 乂 *Views:* ${firstResult.views}
 
+
+*ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+
+
     `;
 
     conn.sendFile(m.chat, firstResult.thumbnail, 'yts.jpeg', message, m);
