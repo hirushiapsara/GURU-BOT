@@ -56,21 +56,21 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *GURU*
-▢ Instagram :
-  • https://instagram.com/asli_guru69
+  *Mr.Shamika*
+▢ WhatsApp Group :
+  • *https://chat.whatsapp.com/EICaeqkViLIDMDs9GBo3an*
 ▢ GitHub :
   • https://github.com/Guru322
-▢ Telegram : 
-  • t.me/i_want_to_be_isekaied (GURU) 
+▢ WhatsApp : 
+  • *https://wa.me/94777456024* (Mr.Shamika) 
 ▢ YouTube : 
-  • https://youtube.com/@Asliguru
+  • *https://www.youtube.com/@gathatamusicofficial9772*
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
 *🔵 FreeRAM:* ${format(freemem())}
 
-*≡  NodeJS memory *
+*≡*  *NodeJS memory *
 ${'```' + Object.keys(used).map((key, _, arr) => `${key.padEnd(Math.max(...arr.map(v => v.length)), ' ')}: ${format(used[key])}`).join('\n') + '```'}
 `
 conn.sendFile(m.chat, pp, 'prefil.jpg', infobt, m, false, { mentions: [who] })
