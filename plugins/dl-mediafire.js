@@ -23,6 +23,9 @@ let handler = async (m, { conn, args, usedPrefix, command, isOwner, isPrems }) =
 ▢ *Extension:* ${ext}
 ▢ *Uploaded:* ${aploud}
 ${isLimit ? `\n▢ The file exceeds the download limit *+${limit} MB*\nUpgrade to premium to be able to download files more than *900 MB*` : ''} 
+
+*ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+
 `.trim()
     await conn.sendFile(m.chat, ss, 'ssweb.png', caption, m)
     
