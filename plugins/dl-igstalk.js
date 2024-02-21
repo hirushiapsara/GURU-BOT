@@ -14,7 +14,11 @@ let handler= async (m, { conn, args, text, usedPrefix, command }) => {
 ▢ *🏝️Posts:* ${res.postsH}
 
 ▢ *🔗 Link* : https://instagram.com/${res.username.replace(/^@/, '')}
-└────────────`
+└────────────
+
+*ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+
+`
 
      await conn.sendFile(m.chat, res.profilePic, 'tt.png', te, m)
      
