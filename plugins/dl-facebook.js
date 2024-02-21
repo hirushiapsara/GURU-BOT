@@ -15,9 +15,12 @@ const handler = async (m, { conn, args, usedPrefix, command }) => {
   try {
     const result = await fg.fbdl(args[0]);
     const tex = `
-⊱ ─── {* GURU FBDL*} ─── ⊰
+⊱ ─── {* MONSTER FBDL*} ─── ⊰
 ↳ *VIDEO TITLE:* ${result.title}
-⊱ ────── {⋆♬⋆} ────── ⊰`;
+⊱ ────── {⋆♬⋆} ────── ⊰
+
+*ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
+`;
 
     const response = await fetch(result.videoUrl);
     const arrayBuffer = await response.arrayBuffer();
