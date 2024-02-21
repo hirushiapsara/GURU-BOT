@@ -400,10 +400,6 @@ import {
   ◈ .underwear
   ◈ .foxgirl
   ◈ .uniform
-  ◈ .skirt
-  ◈ .sex
-  ◈ .sex2
-  ◈ .sex3
   ◈ .breast
   ◈ .twintail
   ◈ .spreadpussy
@@ -428,10 +424,6 @@ import {
   ◈ .ass
   ◈ .boobs
   ◈ .lesbian
-  ◈ .pussy
-  ◈ .pack
-  ◈ .xvid
-  ◈ .xnxx
   ╰──────────⳹
 
   *ᴍᴏɴꜱᴛᴇʀ-ᴍᴅ* • *ᴄʀᴇᴀᴛᴇ ʙʏ ꜱʜᴀᴍɪᴋᴀ ʜᴀʀꜱʜᴀᴍᴀʟ*
