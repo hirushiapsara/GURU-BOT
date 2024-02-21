@@ -1,10 +1,10 @@
 let handler = async m => m.reply(`
 
-≡  *GURU  ┃ ᴮᴼᵀ*   GROUPS
+≡  *MONSTER*  *┃ ᴮᴼᵀ*   GROUPS
 
 ─────────────
 ▢ Join public bot group and support
-https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp
+https://chat.whatsapp.com/EICaeqkViLIDMDs9GBo3an
 
 ▢ Group 2
 https://chat.whatsapp.com/LwLQab5mZVW6WWRbBPnDGC
@@ -16,13 +16,15 @@ https://chat.whatsapp.com/Jn9qVerYN6Q1L0vlVFe2XL
 ≡ Disabled links? enter here! 
 
 ▢ Group WhatsApp 
- https://chat.whatsapp.com/F3sB3pR3tClBvVmlIkqDJp
+ https://chat.whatsapp.com/EICaeqkViLIDMDs9GBo3an
+
 ─────────────
-▢ *Owner Telegram*
- https://t.me/i_want_to_be_isekaied
+▢ *Owner WhatsApp*
+ https://wa.me/94777456024
 
 ▢ *YouTube*
-• https://www.youtube.com/@Asliguru
+• https://www.youtube.com/@gathatamusicofficial9772
+
 
 
 `.trim())
